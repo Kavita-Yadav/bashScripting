@@ -10,6 +10,6 @@ sudo rm /etc/apparmor.d/docker
 sudo groupdel docker
 sudo rm -rf /var/run/docker.sock
 
-#To find any potentially remaining files, you can run-> It is usefull to search all files related to any name given in cmd
+#To find any potentially remaining files, you can run-> It is usefull to search all files related to any name given in cmd, for eg: if want to see python related file than can add python instead of docker
 #sudo find / -name "*docker*"
 
